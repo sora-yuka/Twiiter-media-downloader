@@ -30,6 +30,6 @@ async def main() -> None:
 
 
 if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, filemode="a+", filename="./data/bot.log",
+    logging.basicConfig(level=logging.INFO, filemode="a+", filename="./bot.log",
                         format=("TIME: %(asctime)s | LEVEL: %(levelname)s | MESSAGE: %(message)s"))
     asyncio.run(main())
