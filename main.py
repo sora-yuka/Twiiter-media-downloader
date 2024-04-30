@@ -12,6 +12,7 @@ from handler import router as main_router
 
 async def on_startup() -> None:
     print("Bot has been startup!")
+    print("Bot token:", config("TOKEN"))
 
 async def main() -> None:
     makedirs("data", exist_ok=True)
